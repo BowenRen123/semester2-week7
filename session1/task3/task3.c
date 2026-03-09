@@ -36,7 +36,7 @@ long sum_values(int data[], int n)
     long result = 0L;
 
     for (int i = 0; i < n; ++i) {
-        result += data[i];
+        result += data[i]; 
         LOG_FMT("sum_values(): i=%d, sum=%ld\n", i, result);
     }
 

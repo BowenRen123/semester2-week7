@@ -8,3 +8,4 @@ if __name__ == "__main__":
     data = [0] * 10
     assign_values(data)
     print("Done!")
+

@@ -2,7 +2,6 @@
 
 from grades import MarkError, grade
 
-
 def assert_MarkError(bad_mark):
     try:
         grade(bad_mark)
